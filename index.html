@@ -1,10 +1,115 @@
 <!DOCTYPE html>
 <html lang="ja" dir="ltr">
-  <head>
-    <meta charset="utf-8">
-    <title></title>
-    <link rel="stylesheet" href="css/style.css">
-  </head>
-  <body>
-  </body>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Jinei's Portfolio</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.0/css/bulma.min.css">
+  <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <section class="hero is-success is-medium">
+    <!-- Hero head: will stick at the top -->
+    <div class="hero-head">
+      <header class="navbar">
+        <div class="container">
+          <div class="navbar-brand">
+            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+              <span></span>
+              <span></span>
+              <span></span>
+            </span>
+          </div>
+          <div id="navbarMenuHeroC" class="navbar-menu">
+            <div class="navbar-end">
+              <span class="navbar-item">
+                <a class="button is-success is-inverted">
+                  <span class="icon">
+                    <i class="fab fa-github"></i>
+                  </span>
+                  <span href="https://github.com/jinei">GitHub</span>
+                </a>
+              </span>
+            </div>
+          </div>
+        </div>
+      </header>
+    </div>
+
+    <!-- Hero content: will be in the middle -->
+    <div class="hero-body">
+      <div class="container has-text-centered">
+        <h1 class="title">
+          Title
+        </h1>
+        <h2 class="subtitle">
+          Jinei's Portfolio
+        </h2>
+      </div>
+    </div>
+
+    <!-- Hero footer: will stick at the bottom -->
+    <div class="hero-foot">
+      <nav class="tabs is-boxed is-fullwidth">
+        <div class="container">
+          <ul>
+            <li class="is-active"><a>Home</a></li>
+            <li><a>Create</a></li>
+            <li><a>Blog</a></li>
+            <li><a>Form</a></li>
+          </ul>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <section class="hero is-primary has-text-centered">
+
+    <!-- 自己紹介 -->
+    <div class="hero-body">
+      <div class="container">
+        <h1 class="title has-text-dark has-text-weight-bold">
+          About me
+        </h1>
+        <h2 class="subtitle has-text-dark">
+          自己紹介
+        </h2>
+      </div>
+    </div>
+
+    <div class="column is-8 is-offset-2">
+      <div class="box">
+        <figure class="avatar">
+          <img src="https://placehold.it/128x128">
+          <p class="has-text-black is-size-7">Jinei Nagano</p>
+          <p class="has-text-black is-size-6">長野 仁瑛</p>
+          <br>
+          <p class="has-text-black is-size-6">
+            1998/06/24 生まれ。地元大分でIT企業に就職。<br>
+            情報系専門学校に3年通い、そのまま今の職場に就職しております。<br>
+            専門時代にITベンチャーに半年インターン歴あり。<br><br>
+            Web制作・競技プログラミングなどを主に取り組んでいます。<br>
+            地元大分で、「楽しく」何かを制作するコミュニティも現在作成中です。
+          </p>
+        </figure>
+
+      </div>
+    </div>
+
+  </section>
+
+  <footer class="footer">
+    <div class="content has-text-centered">
+      <p>
+        お問い合わせ
+      </p>
+      <p>
+        <strong>©️Jinei Nagano</strong>&nbsp;2020
+      </p>
+    </div>
+  </footer>
+
+</body>
 </html>

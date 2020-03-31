@@ -1,0 +1,13 @@
+.hero.is-success {
+  background: #6FCF97;
+}
+
+.hero.is-primary {
+  background: #F0FFFE;
+}
+
+.avatar img {
+  padding: 10px;
+  background: #fff;
+  border-radius: 50%;
+}
