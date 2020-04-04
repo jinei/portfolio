@@ -218,3 +218,14 @@ html {
 .footer a {
   color:white;
 }
+
+iframe {
+  width: 50rem;
+  height: 50rem;
+}
+@media (max-width: 599px) {
+  iframe {
+    width: 18rem;
+    height: 50rem;
+  }
+}
