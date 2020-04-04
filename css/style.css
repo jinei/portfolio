@@ -36,7 +36,6 @@ html {
 }
 
 .main-content {
-  padding-top: 2rem;
   color: #58A879;
   font-family: 'Poppins', sans-serif;
 }
@@ -109,17 +108,22 @@ html {
   padding: 30px;
 }
 
-.main-content .section-light.about-me {
-  padding-bottom: 100px;
-}
-
 .main-content .section-light.about-me .is-larger {
   font-size: 1.2rem;
 }
-
+@media (max-width: 599px) {
+  .main-content .section-light.about-me .is-larger {
+    text-align: center;
+    font-size: 1rem;
+  }
+}
 @media (max-width: 599px) {
   .main-content .section-light.about-me .about-links {
     text-align: center;
+  }
+  p {
+    text-align: center;
+    font-size:0.8rem;
   }
 }
 
@@ -190,7 +194,7 @@ html {
 ::-webkit-scrollbar-thumb {
   box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
   -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-  background-color: #43485c;
+  background-color: #6FCF97;
 }
 
 .footer {
