@@ -61,13 +61,13 @@
     <!-- Aboutme Start -->
     <div class="section-light about-me" id="about-me">
       <div class="container">
-        <div class="column is-12 about-me">
+        <div class="column is-12 about-me" data-aos="zoom-out">
           <h1 class="title has-text-centered section-title">About Me</h1>
         </div>
         <div class="columns is-multiline">
           <div
           class="column is-6 has-vertically-aligned-content"
-          data-aos="fade-right"
+          data-aos="zoom-out-right"
           >
           <p class="is-larger">
             <strong>長野 仁瑛&emsp;&emsp;Nagano Jinei</strong
@@ -110,7 +110,7 @@
               </div>
             </div>
           </div>
-          <div class="column is-6 right-image " data-aos="fade-left">
+          <div class="column is-6 right-image " data-aos="zoom-out-left">
             <img
             class="is-rounded"
             src="https://cdn-ak.f.st-hatena.com/images/fotolife/m/mitsukaruko/20190423/20190423204329.jpg"
@@ -157,7 +157,7 @@
         </div>
         <div
         class="column is-6"
-        data-aos="fade-in"
+        data-aos="flip-right"
         data-aos-easing="linear"
         >
         <h1>Angular</h1>
@@ -171,7 +171,7 @@
       </div>
       <div
       class="column is-6"
-      data-aos="fade-in"
+      data-aos="flip-left"
       data-aos-easing="linear"
       >
       <h1>HTML</h1>
@@ -340,6 +340,9 @@
 <link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
 <script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
 <script>
+$(function(){
+  $('section').hide().fadeIn(1000);
+});
 AOS.init({
   easing: "ease-out",
   duration: 800,
