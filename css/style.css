@@ -200,8 +200,16 @@ html {
 .footer {
   background: #6FCF97;
   color: white;
+  padding:3rem 1.5rem 3rem;
 }
 
+.footer p {
+  font-size:1.1rem;
+}
 .footer strong {
+  color:white;
+}
+
+.footer a {
   color:white;
 }
