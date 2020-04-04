@@ -10,6 +10,7 @@
 </head>
 <body>
 
+  <!-- header  Start-->
   <section class="hero is-success is-medium">
     <!-- Hero head: will stick at the top -->
     <div class="hero-head">
@@ -21,18 +22,6 @@
               <span></span>
               <span></span>
             </span>
-          </div>
-          <div id="navbarMenuHeroC" class="navbar-menu">
-            <div class="navbar-end">
-              <span class="navbar-item">
-                <a class="button is-success is-inverted">
-                  <span class="icon">
-                    <i class="fab fa-github"></i>
-                  </span>
-                  <span href="https://github.com/jinei">GitHub</span>
-                </a>
-              </span>
-            </div>
           </div>
         </div>
       </header>
@@ -64,52 +53,296 @@
       </nav>
     </div>
   </section>
+  <!-- header  End-->
 
-  <section class="hero is-primary has-text-centered">
+  <!-- Main  Start-->
+  <div class="main-content">
 
-    <!-- 自己紹介 -->
-    <div class="hero-body">
+    <!-- Aboutme Start -->
+    <div class="section-light about-me" id="about-me">
       <div class="container">
-        <h1 class="title has-text-dark has-text-weight-bold">
-          About me
-        </h1>
-        <h2 class="subtitle has-text-dark">
-          自己紹介
-        </h2>
-      </div>
-    </div>
-
-    <div class="column is-8 is-offset-2">
-      <div class="box">
-        <figure class="avatar">
-          <img src="https://placehold.it/128x128">
-          <p class="has-text-black is-size-7">Jinei Nagano</p>
-          <p class="has-text-black is-size-6">長野 仁瑛</p>
-          <br>
-          <p class="has-text-black is-size-6">
-            1998/06/24 生まれ。地元大分でIT企業に就職。<br>
-            情報系専門学校に3年通い、そのまま今の職場に就職しております。<br>
-            専門時代にITベンチャーに半年インターン歴あり。<br><br>
-            Web制作・競技プログラミングなどを主に取り組んでいます。<br>
-            地元大分で、「楽しく」何かを制作するコミュニティも現在作成中です。
+        <div class="column is-12 about-me">
+          <h1 class="title has-text-centered section-title">About Me</h1>
+        </div>
+        <div class="columns is-multiline">
+          <div
+          class="column is-6 has-vertically-aligned-content"
+          data-aos="fade-right"
+          >
+          <p class="is-larger">
+            &emsp;&emsp;<strong
+            >Showcase is a modern, beautiful personal website template to
+            showcase who you are, as well as projects you've worked on in
+            the past.</strong
+            >
           </p>
-        </figure>
-
+          <br />
+          <p>
+            Showcase was built from the ground up with Bulma to be fast and
+            responsive out of the box with all source files well documented
+            for easy to customization. The Showcase template gives you a
+            personal space to share what you are all about as a creative
+            designer, developer, photographer, and more!
+          </p>
+          <br />
+          <div class="is-divider"></div>
+          <div class="columns about-links">
+            <div class="column">
+              <p class="heading">
+                <strong>Give me a ring</strong>
+              </p>
+              <p class="subheading">
+                123-456-7890
+              </p>
+            </div>
+            <div class="column">
+              <p class="heading">
+                <strong>Email Me</strong>
+              </p>
+              <p class="subheading">
+                hello@example.com
+              </p>
+            </div>
+            <div class="column">
+              <p class="heading">
+                <strong>View my portfolio</strong>
+              </p>
+              <p class="subheading">
+                example.com
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="column is-6 right-image " data-aos="fade-left">
+          <img
+          class="is-rounded"
+          src="https://picsum.photos/id/366/600/375"
+          alt=""
+          />
+        </div>
       </div>
     </div>
+  </div>
+  <!-- Aboutme End -->
 
-  </section>
-
-  <footer class="footer">
-    <div class="content has-text-centered">
-      <p>
-        お問い合わせ
-      </p>
-      <p>
-        <strong>©️Jinei Nagano</strong>&nbsp;2020
-      </p>
+  <!-- 座右の銘 Start-->
+  <div class="section-dark resume">
+    <div class="container">
+      <div
+      class="columns is-multiline"
+      data-aos="fade-in"
+      data-aos-easing="linear"
+      >
+      <div class="column is-12 about-me">
+        <h1 class="title has-text-centered section-title">
+          Always be coding
+        </h1>
+      </div>
+      <div class="column is-10 has-text-centered is-offset-1">
+        <h2 class="subtitle">
+          私の座右の銘です。日常でコーティングしていくことにより、
+          技術をつけていきます。
+        </h2>
+        <button class="button">
+          <i class="fab fa-github"></i>GitHub
+        </button>
+      </div>
     </div>
-  </footer>
+  </div>
+</div>
+<!-- 座右の銘 End -->
+
+<!-- Skill Start -->
+<div class="section-light skills" id="skills">
+  <div class="container">
+    <div class="columns is-multiline">
+      <div class="column is-12 about-me">
+        <h1 class="title has-text-centered section-title">Skills</h1>
+      </div>
+      <div
+      class="column is-6"
+      data-aos="fade-in"
+      data-aos-easing="linear"
+      >
+      <h1>Adobe Experience Design</h1>
+      <progress class="progress" value="70" max="100">30%</progress>
+      <h1>Adobe After Effects</h1>
+      <progress class="progress" value="65" max="100">30%</progress>
+      <h1>Visual Studio Code</h1>
+      <progress class="progress" value="58" max="100">45%</progress>
+      <h1>Sketch</h1>
+      <progress class="progress" value="90" max="100">60%</progress>
+    </div>
+    <div
+    class="column is-6"
+    data-aos="fade-in"
+    data-aos-easing="linear"
+    >
+    <h1>HTML</h1>
+    <progress class="progress" value="85" max="100">30%</progress>
+    <h1>CSS</h1>
+    <progress class="progress" value="95" max="100">30%</progress>
+    <h1>VueJS</h1>
+    <progress class="progress" value="70" max="100">45%</progress>
+    <h1>React</h1>
+    <progress class="progress" value="60" max="100">60%</progress>
+  </div>
+</div>
+</div>
+</div>
+<!-- Skill End -->
+
+<!-- Create Start -->
+<div class="section-dark my-work" id="my-work">
+  <div class="container">
+    <div
+    class="columns is-multiline"
+    data-aos="fade-in"
+    data-aos-easing="linear"
+    >
+    <div class="column is-12">
+      <h1 class="title has-text-centered section-title">Create</h1>
+    </div>
+    <div class="column is-3">
+      <a href="#">
+        <figure
+        class="image is-2by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=0');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-3">
+      <a href="#">
+        <figure
+        class="image is-2by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=10');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-3">
+      <a href="#">
+        <figure
+        class="image is-2by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=20');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-3">
+      <a href="#">
+        <figure
+        class="image is-2by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=30');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-3">
+      <a href="#">
+        <figure
+        class="image is-2by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=40');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-3">
+      <a href="#">
+        <figure
+        class="image is-2by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=50');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-3">
+      <a href="#">
+        <figure
+        class="image is-2by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=60');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-3">
+      <a href="#">
+        <figure
+        class="image is-2by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=70');"
+        ></figure>
+      </a>
+    </div>
+      <div class="column is-12">
+        <div class="has-text-centered"><button class="button is-success is-rounde is-medium" style="margin-top:1rem;">More</button></div>
+      </div>
+  </div>
+</div>
+</div>
+<!-- Create End -->
+
+<!-- Blog Start -->
+<div class="section-dark my-work" id="my-work">
+  <div class="container">
+    <div
+    class="columns is-multiline"
+    data-aos="fade-in"
+    data-aos-easing="linear"
+    >
+    <div class="column is-12">
+      <h1 class="title has-text-centered section-title">Training Blog</h1>
+    </div>
+    <div class="column is-4">
+      <a href="#">
+        <figure
+        class="image is-1by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=0');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-4">
+      <a href="#">
+        <figure
+        class="image is-1by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=10');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-4">
+      <a href="#">
+        <figure
+        class="image is-1by1 work-item"
+        style="background-image: url('https://picsum.photos/320/180?image=20');"
+        ></figure>
+      </a>
+    </div>
+    <div class="column is-12">
+      <div class="has-text-centered"><button class="button is-success is-rounde is-medium" style="margin-top:1rem;">More</button></div>
+    </div>
+  </div>
+</div>
+</div>
+<!-- Create End -->
+</div>
+<!-- End Main Content -->
+
+<footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      お問い合わせ
+    </p>
+    <p>
+      <strong>©️Jinei Nagano</strong>&nbsp;2020
+    </p>
+  </div>
+</footer>
+
+<!-- Scripts -->
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<link href="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.css" rel="stylesheet">
+<script src="https://cdn.rawgit.com/michalsnik/aos/2.1.1/dist/aos.js"></script>
+<script>
+AOS.init({
+  easing: "ease-out",
+  duration: 800,
+});
+</script>
+
+
 
 </body>
 </html>
