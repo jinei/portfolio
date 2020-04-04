@@ -229,3 +229,8 @@ iframe {
     height: 50rem;
   }
 }
+
+img {
+  width: 50rem;
+  height: 20rem;
+}
