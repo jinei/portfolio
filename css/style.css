@@ -105,7 +105,12 @@ html {
 
 /* form about me<--------- */
 .main-content .section-light {
-  padding: 30px;
+  padding: 100px;
+}
+@media (max-width: 599px) {
+  .main-content .section-light {
+    padding: 30px;
+  }
 }
 
 .main-content .section-light.about-me .is-larger {
