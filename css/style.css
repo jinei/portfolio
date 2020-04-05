@@ -243,3 +243,8 @@ img {
   width: 50rem;
   height: 20rem;
 }
+
+::selection {
+  background: #000;
+  color: #fff;
+}
