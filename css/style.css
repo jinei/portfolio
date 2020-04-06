@@ -2,8 +2,8 @@
 .hero.is-success {
   background-repeat: no-repeat;
   background-size: 100vw;
-  background-image: url(https://ko-hey3809.com/wp-content/uploads/2016/11/woman-865111_1280.jpg);
-  background-color: white;
+  background-image: url(/Users/jineinagano/Downloads/Frame3.png);
+  background-color: #6FCF97;
 }
 
 @media (max-width: 599px) {
