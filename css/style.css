@@ -4,6 +4,7 @@
   background-size: 100vw;
   background-image: url(/Users/jineinagano/Downloads/Frame4.png);
   background-color: white;
+  /* background-position: center center; */
 }
 
 @media (max-width: 599px) {
@@ -219,7 +220,7 @@ html {
 }
 
 .footer {
-  background: #6FCF97;
+  background: #487E5E;
   color: white;
   padding:3rem 1.5rem 3rem;
 }
@@ -247,8 +248,8 @@ iframe {
 }
 
 img {
-  width: 50rem;
-  height: 20rem;
+  width: 22rem;
+  height: 22rem;
 }
 
 ::selection {
