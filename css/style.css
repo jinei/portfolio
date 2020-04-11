@@ -2,13 +2,20 @@
 .hero.is-success {
   background-repeat: no-repeat;
   background-size: 100vw;
-  background-image: url(/Users/jineinagano/Downloads/Frame3.png);
-  background-color: #6FCF97;
+  background-image: url(/Users/jineinagano/Downloads/Frame4.png);
+  background-color: white;
 }
 
 @media (max-width: 599px) {
   .hero.is-success {
     background-size: auto;
+  }
+  .hero.is-large {
+      min-height: 100vh;
+  }
+  .hero.is-large .hero-body, .hero.is-fullheight-with-navbar .hero-body, .hero.is-halfheight .hero-body {
+      align-items: center;
+      display: flex;
   }
 }
 
